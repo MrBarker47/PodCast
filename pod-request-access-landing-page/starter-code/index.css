@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding:0;
+   
+}
+
+/* mobile view */
+
+
+body {
+  
+    background-size: 420px 270%;
+    background-size: cover;
+    background: #0e1526;    
+    background-image: url(assets/tablet/image-host.jpg);
+    background-blend-mode: screen;
+    background-repeat: no-repeat;
+    
+    
+}
+
+
+.logo {
+  margin-left: 55px;
+  margin-top: 100px;
+}
+
+
+
+.section {
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+.header {
+    color: #54e6af;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size:larger;
+    margin-bottom: 4px;
+    
+
+}
+
+.header2 {
+    color: white;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size:larger;
+}
+
+p {
+    text-align: center;
+    color: white;
+    margin: 20px;
+    color: rgb(246, 243, 243);
+}
+
+.platform {
+    display: flex;
+    margin-left: 20px;
+}
+
+/* input */
+.request {
+    text-align: center;
+    
+}
+
+input, button {
+    padding: 7px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    border: none;
+    width: 200px;
+ 
+}
+
+input {
+    margin-top: 20px;
+    width: 220px;
+    background-color: rgb(59, 59, 62);
+    color: white;
+    /* font-size: .75rem; */
+}
+
+
+
+#request {
+    width: 232px;
+    background-color:#54e6af;
+    font-size: x-small;
+    height: 30px;
+}
+
+#request:hover {
+    background-color: white;
+}
+
+@media  (min-width: 768px) {
+ 
+    #request {
+       width: 162px;
+       height: 50px;
+      position: absolute;
+      left: 65%;
+      top: 42%;
+    
+    }
+    
+    input {
+        width: 427px;
+        height: 50px;
+        flex-shrink: 0;
+        
+    }
+    
+}
+
+
+

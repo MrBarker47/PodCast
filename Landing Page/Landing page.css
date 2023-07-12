@@ -1,0 +1,31 @@
+body {
+    background-color: mediumblue;
+   background: url("image-host.JPEG");
+   background-size: cover;
+}
+
+
+
+#image {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+h1 {
+    color: limegreen;
+    font-family: 'Chivo', sans-serif;
+}
+
+#second {
+    color: white;
+    font-family: 'Chivo', sans-serif;
+}
+
+p{
+    font-family: 'Chivo', sans-serif;
+    color: D8D8D8;
+}
